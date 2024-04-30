@@ -77,5 +77,11 @@ h6 {
 
   /* font weights */
 
-  --fw-extraBold: ;
+  --fw-extraBold: 800;
+  --fw-bold: 700;
+  --fw-regular: 400;
+}
+
+body {
+  font-family: var(--ff-inter);
 }
