@@ -107,10 +107,6 @@ button:hover {
   background-color: var(--clr-black-900);
 }
 
-section {
-  padding: 10rem;
-}
-
 /* start of header section */
 
 header {
@@ -172,6 +168,7 @@ button:hover {
   align-items: start;
   justify-content: center;
   gap: 5rem;
+  margin: 5rem;
 }
 
 .hero-sec .details-container {
