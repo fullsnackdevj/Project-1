@@ -115,7 +115,22 @@ header a {
   color: var(--clr-black-900);
 }
 
-header a:hover {
+header ul li a:hover {
   border-bottom: 4px solid var(--clr-black-900);
   padding-bottom: 2rem;
+}
+
+header button {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 2rem;
+  border: 2px solid var(--clr-black-900);
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+header button:hover {
+  color: white;
+  background-color: var(--clr-black-900);
 }
