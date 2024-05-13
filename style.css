@@ -84,7 +84,7 @@ h6 {
 
 h1 {
   font-size: 62px;
-  line-height: 1.5;
+  line-height: 1;
 }
 
 body {
@@ -108,7 +108,7 @@ button:hover {
 }
 
 section {
-  padding: 5rem;
+  padding: 10rem;
 }
 
 /* start of header section */
@@ -169,6 +169,15 @@ button:hover {
 
 .hero-sec {
   display: flex;
+  align-items: start;
+  justify-content: center;
+  gap: 5rem;
+}
+
+.hero-sec .details-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 /* end of hero section */
