@@ -85,3 +85,37 @@ h6 {
 body {
   font-family: var(--ff-inter);
 }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 0.5px solid var(--clr-gray-800);
+}
+
+header > * {
+  font-weight: var(--fw-bold);
+  font-size: 24px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+header ul li {
+}
+
+header a {
+  text-decoration: none;
+  color: var(--clr-black-900);
+}
+
+header a:hover {
+  border-bottom: 4px solid var(--clr-black-900);
+  padding-bottom: 2rem;
+}
