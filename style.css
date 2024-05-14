@@ -128,15 +128,15 @@ body {
   align-items: center;
   gap: 0.5rem;
   padding: 1rem 2rem;
-  border: 2px solid var(--clr-black-900);
   border-radius: 0.5rem;
+  border: 2px solid var(--clr-grag-900);
   cursor: pointer;
-  background-color: transparent;
+  background-color: var(--clr-black-900);
+  color: white;
 }
 
 .filled-btn:hover {
-  color: white;
-  background-color: var(--clr-black-900);
+  background-color: var(--clr-gray-900);
 }
 
 .wrapper {
@@ -162,9 +162,6 @@ header ul {
   display: flex;
   gap: 2rem;
   padding: 2rem;
-}
-
-header ul li {
 }
 
 header a {
