@@ -89,6 +89,8 @@ h1 {
 
 body {
   font-family: var(--ff-inter);
+  display: flex;
+  justify-content: center;
 }
 
 button {
@@ -107,12 +109,16 @@ button:hover {
   background-color: var(--clr-black-900);
 }
 
+.wrapper {
+  border: 1.5px solid var(--clr-gray-800);
+}
+
 /* start of header section */
 
 header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
   border-bottom: 0.5px solid var(--clr-gray-800);
 }
 
@@ -163,18 +169,16 @@ button:hover {
 
 .hero-sec {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   gap: 5rem;
   margin: 10rem 0;
-}
-
-.hero-sec > * {
 }
 
 .hero-sec .details-container {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  width: 680px;
 }
 
 /* end of hero section */
