@@ -89,7 +89,11 @@ h6 {
   padding: 0 5rem;
 }
 
-.lr-margin {
+.tb-padding {
+  padding: 5rem 0;
+}
+
+.tb-margin {
   margin: 10rem 0;
 }
 
@@ -106,16 +110,25 @@ span.inactive {
   background-color: var(--clr-darker-black);
   color: var(--clr-white);
   padding: 5rem 15rem 0;
-  display: flex;
   align-items: center;
   justify-content: center;
   gap: 3rem;
 }
 
 .left-container {
-  display: flex;
   flex-direction: column;
   gap: 1rem;
+  max-width: 560px;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.d-flex-column {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 h1 {
@@ -161,6 +174,7 @@ body {
   gap: 0.5rem;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
+  border: none;
   /* border: 2px solid var(--clr-gray-900); */
   cursor: pointer;
   background-color: var(--clr-black-900);
@@ -179,10 +193,10 @@ body {
 /* start of header section */
 
 header {
-  display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
-  /* border-bottom: 0.5px solid var(--clr-gray-800); */
+  border-bottom: 0.5px solid var(--clr-gray-800);
+  padding: 0.5rem 0;
 }
 
 header > * {
@@ -204,7 +218,7 @@ header a {
 
 header ul li a:hover {
   border-bottom: 4px solid var(--clr-black-900);
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
 }
 
 /* end of header section */
@@ -212,7 +226,6 @@ header ul li a:hover {
 /* start of hero section */
 
 .hero-sec {
-  display: flex;
   justify-content: center;
   gap: 5rem;
 }
@@ -227,14 +240,17 @@ header ul li a:hover {
 /* end of hero section */
 
 .span-group {
-  display: flex;
   gap: 1rem;
 }
 
 .span-group > * {
-  padding: 1rem 3rem;
+  padding: 1rem 1.5rem;
   background-color: var(--clr-white);
   color: var(--clr-black-900);
-  font-weight: var(--fw-bold);
+  font-weight: var(--fw-extraBold);
   border-radius: 50px;
+}
+
+.tech-learn {
+  align-items: center;
 }
