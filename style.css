@@ -116,8 +116,8 @@ span.inactive {
 }
 
 .left-container {
+  display: flex;
   flex-direction: column;
-  gap: 1rem;
   max-width: 560px;
 }
 
@@ -257,4 +257,5 @@ header ul li a:hover {
 
 .tech-learn {
   align-items: center;
+  justify-content: center;
 }
