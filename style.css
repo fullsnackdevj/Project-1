@@ -103,7 +103,8 @@ body {
   justify-content: center;
 }
 
-button {
+/* outlined button */
+.outline-btn {
   display: flex;
   align-items: center;
   gap: 0.5rem;
@@ -114,10 +115,12 @@ button {
   background-color: transparent;
 }
 
-button:hover {
+.outline-btn:hover {
   color: white;
   background-color: var(--clr-black-900);
 }
+
+/* filled button */
 
 .wrapper {
   border: 1.5px solid var(--clr-gray-800);
