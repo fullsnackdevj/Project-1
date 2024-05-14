@@ -93,6 +93,11 @@ h6 {
   margin: 10rem 0;
 }
 
+.container {
+  width: 1800px;
+  margin: 0 auto;
+}
+
 .dark-section {
   background-color: var(--clr-darker-black);
   color: var(--clr-white);
@@ -111,8 +116,8 @@ h2 {
 
 body {
   font-family: var(--ff-inter);
-  display: flex;
-  justify-content: center;
+  /* display: flex;
+  justify-content: center; */
 }
 
 /* outlined button */
@@ -161,7 +166,7 @@ body {
 
 header {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   /* border-bottom: 0.5px solid var(--clr-gray-800); */
 }
@@ -194,7 +199,7 @@ header ul li a:hover {
 
 .hero-sec {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 5rem;
 }
 
