@@ -98,10 +98,18 @@ h6 {
   margin: 0 auto;
 }
 
+span.inactive {
+  background: var(--clr-gray-800);
+}
+
 .dark-section {
   background-color: var(--clr-darker-black);
   color: var(--clr-white);
-  padding: 10rem 5rem;
+  padding: 5rem 15rem 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
 }
 
 h1 {
