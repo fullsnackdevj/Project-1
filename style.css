@@ -211,3 +211,16 @@ header ul li a:hover {
 }
 
 /* end of hero section */
+
+.span-group {
+  display: flex;
+  gap: 1rem;
+}
+
+.span-group > * {
+  padding: 1rem 3rem;
+  background-color: var(--clr-white);
+  color: var(--clr-black-900);
+  font-weight: var(--fw-bold);
+  border-radius: 50px;
+}
