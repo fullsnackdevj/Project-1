@@ -67,7 +67,7 @@ h6 {
 :root {
   /* colors */
 
-  --clr-black-900: #131313;
+  --clr-black-900: #242424;
   --clr-darker-black: #000000;
   --clr-gray-900: #767676;
   --clr-gray-800: #818181;
@@ -114,6 +114,7 @@ body {
   border-radius: 0.5rem;
   cursor: pointer;
   background-color: transparent;
+  transition: background-color 0.3s ease;
 }
 
 .outline-btn:hover {
@@ -138,7 +139,7 @@ body {
 }
 
 .filled-btn:hover {
-  background-color: var(--clr-gray-900);
+  background-color: var(--clr-darker-black);
 }
 
 .wrapper {
@@ -174,22 +175,6 @@ header a {
 header ul li a:hover {
   border-bottom: 4px solid var(--clr-black-900);
   padding-bottom: 2rem;
-}
-
-button {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 1rem 2rem;
-  border: 2px solid var(--clr-black-900);
-  border-radius: 0.5rem;
-  cursor: pointer;
-  background-color: transparent;
-}
-
-button:hover {
-  color: white;
-  background-color: var(--clr-black-900);
 }
 
 /* end of header section */
