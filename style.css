@@ -105,7 +105,7 @@ body {
 
 /* outlined button */
 .outline-btn {
-  display: flex;s
+  display: flex;
   align-items: center;
   gap: 0.5rem;
   padding: 1rem 2rem;
@@ -121,6 +121,23 @@ body {
 }
 
 /* filled button */
+
+/* outlined button */
+.filled-btn {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 1rem 2rem;
+  border: 2px solid var(--clr-black-900);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.filled-btn:hover {
+  color: white;
+  background-color: var(--clr-black-900);
+}
 
 .wrapper {
   /* border: 1.5px solid var(--clr-gray-800); */
