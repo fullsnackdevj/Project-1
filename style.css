@@ -129,10 +129,11 @@ body {
   gap: 0.5rem;
   padding: 1rem 2rem;
   border-radius: 0.5rem;
-  border: 2px solid var(--clr-grag-900);
+  /* border: 2px solid var(--clr-gray-900); */
   cursor: pointer;
   background-color: var(--clr-black-900);
   color: white;
+  transition: background-color 0.3s ease;
 }
 
 .filled-btn:hover {
