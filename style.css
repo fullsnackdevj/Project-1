@@ -40,8 +40,8 @@
   /* heading size */
   --hd-500: var(--fs-500);
   --hd-600: var(--fs-600);
-  --hd-700: var(--fs-600);
-  --hd-600: var(--fs-600);
+  --hd-700: var(--fs-700);
+  --hd-800: var(--fs-800);
 }
 
 /* // https://piccalil.li/blog/a-modern-css-reset */
