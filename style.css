@@ -6,6 +6,10 @@
   --clr-pr-400: hsl(0 0 85 100%);
   --clr-pr-500: hsl(0 0 65 100%);
   --clr-pr-700: hsl(0 0 7 100%);
+
+  /* typography */
+
+  --ff-inter: "Inter", san-serif;
 }
 
 /* // https://piccalil.li/blog/a-modern-css-reset */
