@@ -199,6 +199,19 @@ svg {
   background-color: var(--clr-pr-400);
 }
 
+/* buttons  */
+
+.btn-primary{
+  background-color: var(--clr-pr-700);
+  color: var(--clr-pr-400);
+}
+
+.btn-secondary{
+  background-color: var(--clr-pr-400);
+  color: var(--clr-pr-700);
+}
+
+
 
 
 
