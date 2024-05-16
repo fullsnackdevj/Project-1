@@ -140,33 +140,29 @@ svg {
 
 /* texts weights */
 
-.text-thin{
-  font-weight: var(--fw-300);
-  }
-
-  .text-regular{
+.text-reg {
   font-weight: var(--fw-400);
-  }
+}
 
-  .text-medium{
+.text-medium {
   font-weight: var(--fw-500);
-  }
+}
 
-  .text-semiBold{
+.text-semiBold {
   font-weight: var(--fw-600);
-  }
+}
 
-  .text-bold{
+.text-bold {
   font-weight: var(--fw-700);
-  }
+}
 
-  .text-extraBold{
+.text-extraBold {
   font-weight: var(--fw-800);
-  }
+}
 
-  .text-black{
+.text-black {
   font-weight: var(--fw-900);
-  }
+}
 
 /* spacing*/
 
@@ -207,27 +203,24 @@ svg {
 
 /* background */
 
-.dark-bg{
+.dark-bg {
   background-color: var(--clr-pr-700);
 }
 
-.white-bg{
+.white-bg {
   background-color: var(--clr-pr-400);
 }
 
 /* buttons  */
 
-.btn-primary{
+.btn-primary {
   background-color: var(--clr-pr-700);
   color: var(--clr-pr-400);
 }
 
-.btn-secondary{
+.btn-secondary {
   background-color: var(--clr-pr-400);
   color: var(--clr-pr-700);
 }
 
-
 /* general styles */
-
-}
