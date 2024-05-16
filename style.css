@@ -14,10 +14,10 @@
 
   /* font sizes */
   --fs-400: 1.125rem;
-  --fs-500: 1.5rem;
+  --fs-500: 1.375rem;
   --fs-600: 2rem;
-  --fs-700: 2.5rem;
-  --fs-800: 3rem;
+  --fs-700: 3rem;
+  --fs-800: 3.5rem;
   --fs-900: 3.875rem;
 
   /* font weights */
@@ -31,10 +31,10 @@
   /* spacing values */
 
   --space-400: 1.125rem;
-  --space-500: 1.5rem;
+  --space-500: 1.375rem;
   --space-600: 2rem;
-  --space-700: 2.5rem;
-  --space-800: 3rem;
+  --space-700: 3rem;
+  --space-800: 3.5rem;
   --space-900: 3.875rem;
 
   /* heading size */
@@ -78,6 +78,7 @@ body {
 
 /* Set core body defaults */
 body {
+  font-family: var(--ff-inter);
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
@@ -109,4 +110,30 @@ svg {
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
   }
+}
+
+/* Utility Classes */
+
+/* headings */
+
+.text-heading-900 {
+  font-size: var(--fs-900);
+}
+
+.text-heading-800 {
+  font-size: var(--fs-800);
+}
+
+.text-heading-700 {
+  font-size: var(--fs-700);
+}
+
+/* paragraphs, span, button texts etc. */
+
+.text-400 {
+  font-size: var(--fs-400);
+}
+
+.text-500 {
+  font-size: var(--fs-500);
 }
