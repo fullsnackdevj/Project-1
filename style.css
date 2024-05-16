@@ -138,6 +138,36 @@ svg {
   font-size: var(--fs-500);
 }
 
+/* texts weights */
+
+.text-thin{
+  font-weight: var(--fw-300);
+  }
+
+  .text-regular{
+  font-weight: var(--fw-400);
+  }
+
+  .text-medium{
+  font-weight: var(--fw-500);
+  }
+
+  .text-semiBold{
+  font-weight: var(--fw-600);
+  }
+
+  .text-bold{
+  font-weight: var(--fw-700);
+  }
+
+  .text-extraBold{
+  font-weight: var(--fw-800);
+  }
+
+  .text-black{
+  font-weight: var(--fw-900);
+  }
+
 /* spacing*/
 
 /* top and bottom padding */
