@@ -213,8 +213,6 @@ svg {
   background-color: var(--clr-pr-400);
 }
 
-/* buttons  */
-
 .btn-primary {
   background-color: var(--clr-pr-700);
   color: var(--clr-pr-400);
@@ -245,4 +243,10 @@ header ul {
   display: inline-flex;
   gap: var(--space-600);
   font-weight: var(--fw-600);
+}
+
+header > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
