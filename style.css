@@ -1,3 +1,5 @@
+/* Custom Styles */
+
 :root {
   /* colors */
   --clr-pr-400: hsl(0, 0%, 85%);
@@ -199,8 +201,8 @@ body {
 }
 
 header {
-  display: flex;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
   max-width: 1363px;
   margin-inline: auto;
@@ -212,10 +214,12 @@ header ul {
   display: inline-flex;
   gap: var(--space-600);
   font-weight: var(--fw-600);
+  justify-self: center;
 }
 
 header > button {
   display: flex;
   justify-content: center;
   align-items: center;
+  justify-self: end;
 }
