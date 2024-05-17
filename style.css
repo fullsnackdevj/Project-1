@@ -226,3 +226,15 @@ svg {
 }
 
 /* general styles */
+
+body {
+  width: 100%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1363px;
+  margin-inline: auto;
+}
