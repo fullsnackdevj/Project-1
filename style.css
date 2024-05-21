@@ -214,7 +214,6 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 1363px;
-  padding: 0 var(--space-300);
 }
 
 .border-bottom {
@@ -222,7 +221,7 @@ body {
 }
 
 header {
-  border-bottom: 0.5px solid var(--clr-pr-400);
+  padding-inline: 1rem;
 }
 
 ul {
