@@ -107,6 +107,7 @@ svg {
 /* Utility Classes */
 .text-heading-900 {
   font-size: var(--fs-900);
+  line-height: 1;
 }
 
 .text-heading-800 {
