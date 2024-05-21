@@ -200,17 +200,19 @@ svg {
 }
 
 body {
-  width: 100%;
+  width: 1363px;
+  margin-inline: auto;
 }
 
-header {
+.container {
   display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1363px;
-  margin-inline: auto;
-  padding: var(--space-600);
-  font-size: var(--fs-450);
+}
+
+header {
+  padding: var(--space-600) 0;
 }
 
 header ul {
