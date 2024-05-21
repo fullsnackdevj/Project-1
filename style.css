@@ -200,22 +200,24 @@ svg {
 }
 
 body {
-  width: 1363px;
-  margin-inline: auto;
+  width: 100%;
+}
+
+.container-fluid {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 .container {
   display: flex;
-  justify-content: space-between;
   align-items: center;
-  max-width: 1363px;
+  justify-content: space-between;
+  width: 1363px;
+  padding: 0 var(--space-300);
 }
 
-header {
-  padding: var(--space-600) 0;
-}
-
-header ul {
+ul {
   list-style: none;
   display: inline-flex;
   gap: var(--space-600);
