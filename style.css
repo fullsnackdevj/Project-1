@@ -258,6 +258,12 @@ button {
   padding: var(--space-300) var(--space-500);
   border-radius: 0.5rem;
   text-transform: capitalize;
+  transition: transform 0.3s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  color: var(--clr-pr-700);
 }
 
 /* hero section */
