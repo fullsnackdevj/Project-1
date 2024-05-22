@@ -154,15 +154,15 @@ svg {
   font-weight: var(--fw-900);
 }
 
-.padding-tb-small {
+.padding-tb-sm {
   padding: var(--space-400) 0;
 }
 
-.padding-tb-medium {
+.padding-tb-md {
   padding: var(--space-500) 0;
 }
 
-.padding-tb-large {
+.padding-tb-lg {
   padding: var(--space-600) 0;
 }
 
@@ -170,15 +170,15 @@ svg {
   padding: var(--space-600) 0;
 }
 
-.margin-tb-small {
+.margin-tb-sm {
   margin: var(--space-400) 0;
 }
 
-.margin-tb-medium {
+.margin-tb-md {
   margin: var(--space-500) 0;
 }
 
-.margin-tb-large {
+.margin-tb-lg {
   margin: var(--space-900) 0;
 }
 
@@ -186,15 +186,19 @@ svg {
   margin: var(--space-700) 0;
 }
 
-.gap-small {
+.gap-xs {
   gap: var(--space-400);
 }
 
-.gap-medium {
+.gap-sm {
+  gap: var(--space-400);
+}
+
+.gap-md {
   gap: var(--space-500);
 }
 
-.gap-large {
+.gap-lg {
   gap: var(--space-900);
 }
 
