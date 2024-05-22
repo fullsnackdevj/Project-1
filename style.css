@@ -249,6 +249,10 @@ body {
   border-bottom: 0.5px solid var(--clr-pr-400);
 }
 
+.no-border {
+  border: 0;
+}
+
 header {
   padding-inline: 1rem;
 }
@@ -298,6 +302,11 @@ button:hover {
 
 .d-flex {
   display: flex;
+}
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
 }
 
 .border-round {
