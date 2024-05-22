@@ -291,3 +291,7 @@ button:hover {
 .d-flex {
   display: flex;
 }
+
+.border-round {
+  border-radius: 50px;
+}
