@@ -69,6 +69,11 @@ body {
   height: 100%;
 }
 
+h1,
+h2 {
+  line-height: 1.2;
+}
+
 body {
   font-family: var(--ff-inter);
   font-size: var(--fs-400);
@@ -107,7 +112,6 @@ svg {
 /* Utility Classes */
 .text-heading-900 {
   font-size: var(--fs-900);
-  line-height: 1;
 }
 
 .text-heading-800 {
@@ -283,3 +287,14 @@ button:hover {
   color: #fff;
   border: 0;
 }
+
+.d-flex {
+  display: flex;
+}
+
+/* .about div:nth-child(1) {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  align-items: flex-start;
+} */
