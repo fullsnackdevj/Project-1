@@ -154,6 +154,10 @@ svg {
   font-weight: var(--fw-900);
 }
 
+.text-light {
+  color: var(--clr-pr-400) !important;
+}
+
 .padding-tb-sm {
   padding: var(--space-400) 0;
 }
@@ -187,7 +191,7 @@ svg {
 }
 
 .gap-xs {
-  gap: var(--space-400);
+  gap: var(--space-300);
 }
 
 .gap-sm {
