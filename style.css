@@ -3,45 +3,7 @@
   --clr-pr-400: hsl(0, 0%, 85%);
   --clr-pr-500: hsl(0, 0%, 65%);
   --clr-pr-700: hsl(0, 0%, 7%);
-
-  /* typography */
-  --ff-inter: "Inter", sans-serif;
-
-  /* font sizes */
-  --fs-300: 1rem;
-  --fs-400: 1.125rem;
-  --fs-450: 1.375rem;
-  --fs-500: 1.5rem;
-  --fs-600: 2rem;
-  --fs-700: 3rem;
-  --fs-800: 3.5rem;
-  --fs-900: 3.875rem;
-
-  /* font weights */
-  --fw-400: 400;
-  --fw-500: 500;
-  --fw-600: 600;
-  --fw-700: 700;
-  --fw-800: 800;
-  --fw-900: 900;
-
-  /* spacing values */
-  --space-300: 1rem;
-  --space-400: 1.125rem;
-  --space-450: 1.375rem;
-  --space-500: 1.5rem;
-  --space-600: 2rem;
-  --space-700: 3rem;
-  --space-800: 3.5rem;
-  --space-900: 3.875rem;
-
-  /* heading size */
-  --hd-500: var(--fs-500);
-  --hd-600: var(--fs-600);
-  --hd-700: var(--fs-700);
-  --hd-800: var(--fs-800);
 }
-
 /* Reset and base styles */
 *,
 *::before,
