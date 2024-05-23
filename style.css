@@ -3,6 +3,10 @@
   --clr-pr-white: hsl(0, 0%, 85%);
   --clr-pr-gray: hsl(0, 0%, 65%);
   --clr-pr-black: hsl(0, 0%, 7%);
+
+  /* typography */
+
+  --ff-inter: "Inter", sans-serif;
 }
 
 /* Box sizing rules */
