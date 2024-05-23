@@ -19,16 +19,16 @@
   --fs-56: 56px;
   --fs-62: 62px;
   --fs-134: 134px;
+
+  /* font weights */
+
+  --fw-reg: 400;
+  --fw-medium: 500;
+  --fw-semibold: 600;
+  --fw-bold: 700;
+  --fw-extrabold: 800;
+  --fw-black: 900;
 }
-
-/* font weights */
-
---fw-reg: 400;
---fw-medium: 500;
---fw-semibold: 600;
---fw-bold: 700;
---fw-extrabold: 800;
---fw-black: 900;
 
 /* Box sizing rules */
 *,
