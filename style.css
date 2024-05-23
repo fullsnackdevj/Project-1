@@ -1,8 +1,8 @@
 :root {
   /* colors */
-  --clr-pr-400: hsl(0, 0%, 85%);
-  --clr-pr-500: hsl(0, 0%, 65%);
-  --clr-pr-700: hsl(0, 0%, 7%);
+  --clr-pr-100: hsl(0, 0%, 85%);
+  --clr-pr-200: hsl(0, 0%, 65%);
+  --clr-pr-300: hsl(0, 0%, 7%);
 }
 
 /* Box sizing rules */
