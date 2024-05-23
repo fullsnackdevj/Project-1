@@ -37,8 +37,6 @@ h2 {
 }
 
 body {
-  font-family: var(--ff-inter);
-  font-size: var(--fs-400);
   text-rendering: optimizeSpeed;
   line-height: 1.5;
 }
