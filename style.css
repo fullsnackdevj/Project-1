@@ -7,6 +7,18 @@
   /* typography */
 
   --ff-inter: "Inter", sans-serif;
+
+  /* font sizes */
+
+  --fs-16: 16px;
+  --fs-18: 18px;
+  --fs-22: 22px;
+  --fs-24: 24px;
+  --fs-32: 32px;
+  --fs-38: 38px;
+  --fs-56: 56px;
+  --fs-62: 62px;
+  --fs-134: 134px;
 }
 
 /* Box sizing rules */
