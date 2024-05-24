@@ -236,3 +236,11 @@ select {
 .padding-x-40 {
   padding: var(--spacing-40) 0;
 }
+
+/* general styles */
+
+body {
+  /* display: flex;
+  justify-content: center;
+  min-height: 100vh; */
+}
