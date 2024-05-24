@@ -208,3 +208,31 @@ select {
 .gap-64 {
   gap: var(--spacing-64);
 }
+
+/* padding values top & bottom */
+
+.padding-y-16 {
+  padding: var(--spacing-16) 0;
+}
+
+.padding-y-24 {
+  padding: var(--spacing-24) 0;
+}
+
+.padding-y-40 {
+  padding: var(--spacing-40) 0;
+}
+
+/* padding values left & right */
+
+.padding-x-16 {
+  padding: var(--spacing-16) 0;
+}
+
+.padding-x-24 {
+  padding: var(--spacing-24) 0;
+}
+
+.padding-x-40 {
+  padding: var(--spacing-40) 0;
+}
