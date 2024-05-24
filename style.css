@@ -170,3 +170,15 @@ select {
 .bg-black {
   background-color: var(--clr-pr-black);
 }
+
+/* display flow */
+
+.d-flex-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.d-flex-row {
+  display: flex;
+  flex-direction: row;
+}
