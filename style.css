@@ -130,3 +130,29 @@ select {
 .text-black {
   color: var(--clr-pr-black);
 }
+
+/* font weights */
+
+.text-regular {
+  font-weight: var(--fw-reg);
+}
+
+.text-medium {
+  font-weight: var(--fw-medium);
+}
+
+.text-semibold {
+  font-weight: var(--fw-semibold);
+}
+
+.text-bold {
+  font-weight: var(--fw-bold);
+}
+
+.text-extrabold {
+  font-weight: var(--fw-extrabold);
+}
+
+.text-black {
+  font-weight: var(--fw-black);
+}
