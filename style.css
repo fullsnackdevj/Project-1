@@ -196,3 +196,15 @@ select {
 .gap-40 {
   gap: var(--spacing-40);
 }
+
+.gap-48 {
+  gap: var(--spacing-48);
+}
+
+.gap-56 {
+  gap: var(--spacing-56);
+}
+
+.gap-64 {
+  gap: var(--spacing-64);
+}
