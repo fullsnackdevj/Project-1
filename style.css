@@ -116,3 +116,17 @@ select {
 }
 
 /* Utility Classes */
+
+/* text colors */
+
+.text-white {
+  color: var(--clr-pr-white);
+}
+
+.text-gray {
+  color: var(--clr-pr-gray);
+}
+
+.text-black {
+  color: var(--clr-pr-black);
+}
