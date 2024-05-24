@@ -156,3 +156,17 @@ select {
 .text-black {
   font-weight: var(--fw-black);
 }
+
+/* background */
+
+.bg-white {
+  background-color: var(--clr-pr-white);
+}
+
+.bg-gray {
+  background-color: var(--clr-pr-gray);
+}
+
+.bg-black {
+  background-color: var(--clr-pr-black);
+}
