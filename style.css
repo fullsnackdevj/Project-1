@@ -164,7 +164,39 @@ header {
   justify-content: center;
   background-color: transparent;
   border-radius: 0.5rem;
+  border: 2px solid;
+  outline: none;
   padding: var(--spacing-16) var(--spacing-24);
+
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+
+  &:hover {
+    background-color: #000;
+    color: #fff;
+    transform: scale(1.1);
+  }
+}
+
+.btn-filled {
+  font-size: var(--fs-22);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  background-color: var(--clr-pr-black);
+  color: #fff;
+  border-radius: 0.5rem;
+  padding: var(--spacing-16) var(--spacing-24);
+  border: 0;
+
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, transform 0.3s;
+
+  &:hover {
+    background-color: #000;
+    transform: scale(1.1);
+  }
 }
 
 @media (max-width: 479px) {
