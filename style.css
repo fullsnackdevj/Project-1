@@ -235,6 +235,17 @@ header {
   padding: 3rem 1rem 0;
 }
 
+.btn-muted {
+  padding: 1rem 2rem;
+  border-radius: 50px;
+  border: 0;
+  font-weight: bold;
+}
+
+.darken {
+  background: var(--clr-pr-gray);
+}
+
 /* Extra Small Devices (Phones) */
 @media (max-width: 479px) {
   nav,
