@@ -135,7 +135,7 @@ body {
 
 .container {
   max-width: 1363px;
-  /* margin: 0 auto; babalikan after ng mobile version */
+  margin: 0 auto;
   /* padding: 1rem 1rem 0; */
 }
 
