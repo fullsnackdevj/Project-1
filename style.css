@@ -232,6 +232,8 @@ header {
   gap: var(--spacing-32);
 }
 
+/* about section styles */
+
 .about {
   background-color: var(--clr-pr-black);
   color: var(--clr-pr-white);
@@ -247,6 +249,13 @@ header {
   & .darken {
     background: var(--clr-pr-gray);
   }
+}
+
+/* tech overview section styles */
+
+.tech-overview img,
+img + h2 {
+  margin-bottom: var(--spacing-18);
 }
 
 /* Extra Small Devices (Phones) */
