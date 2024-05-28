@@ -255,7 +255,7 @@ header {
 
 .tech-overview img,
 img + h2 {
-  margin-bottom: var(--spacing-18);
+  margin: var(--spacing-18) 0;
 }
 
 /* Extra Small Devices (Phones) */
