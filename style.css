@@ -136,6 +136,7 @@ body {
 .container {
   max-width: 1363px;
   margin: 0 auto;
+  padding: 1rem;
 }
 
 header {
@@ -226,6 +227,12 @@ header {
   flex-direction: column;
   align-items: flex-start;
   gap: 1rem;
+}
+
+.about {
+  background-color: var(--clr-pr-black);
+  color: var(--clr-pr-white);
+  padding: 3rem 1rem 0;
 }
 
 /* Extra Small Devices (Phones) */
