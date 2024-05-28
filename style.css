@@ -150,11 +150,22 @@ header {
     align-items: center;
     flex-direction: row;
     padding: 0;
-    justify-content: center;
 
     & a {
       text-decoration: none;
       color: inherit;
     }
   }
+}
+
+.btn-outlined {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  border-radius: 0.5rem;
+  padding: var(--spacing-16) var(--spacing-24);
+}
+
+@media (max-width: 479px) {
 }
