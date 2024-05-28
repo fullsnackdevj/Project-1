@@ -124,7 +124,7 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(var(--fs-32), 5vw + 1rem, var(--fs-56));
+  font-size: clamp(var(--fs-32), 5vw + 1rem, var(--fs-40));
   line-height: 1.1;
 }
 
