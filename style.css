@@ -1,6 +1,6 @@
 :root {
   /* colors */
-  --clr-pr-white: hsl(0, 0%, 85%);
+  --clr-pr-white: hsl(0, 0%, 95%);
   --clr-pr-gray: hsl(0, 0%, 65%);
   --clr-pr-black: hsl(0, 0%, 7%);
 
@@ -136,11 +136,15 @@ body {
 .container {
   max-width: 1363px;
   /* margin: 0 auto; babalikan after ng mobile version */
-  padding: 1rem 1rem 0;
+  /* padding: 1rem 1rem 0; */
 }
 
 section {
   margin: clamp(var(--spacing-32), 5vw + 1rem, var(--spacing-136)) 0;
+}
+
+.fluid {
+  padding: clamp(var(--spacing-16), 5vw + 1rem, var(--spacing-136));
 }
 
 .dflex {
@@ -237,7 +241,6 @@ header {
 .about {
   background-color: var(--clr-pr-black);
   color: var(--clr-pr-white);
-  padding: 3rem 1rem 0;
 
   & .btn-muted {
     padding: 1rem 2rem;
@@ -265,6 +268,16 @@ img + h2 {
 
 .learning-environment img {
   margin: var(--spacing-18) 0;
+}
+
+.portfolio {
+  background-color: var(--clr-pr-black);
+  color: var(--clr-pr-white);
+
+  & .big-text {
+    font-size: var(--fs-136);
+    font-weight: var(--fw-extrabold);
+  }
 }
 
 /* Extra Small Devices (Phones) */
