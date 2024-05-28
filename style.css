@@ -143,8 +143,12 @@ section {
   margin: clamp(var(--spacing-32), 5vw + 1rem, var(--spacing-136)) 0;
 }
 
-.fluid {
+.padding-for-dark-bg {
   padding: clamp(var(--spacing-16), 5vw + 1rem, var(--spacing-136));
+}
+
+.padding-for-light-bg {
+  padding: clamp(var(--spacing-16), 5vw + 1rem, var(--spacing-136)) 0;
 }
 
 .dflex {
