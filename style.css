@@ -166,6 +166,10 @@ header {
       color: inherit;
     }
   }
+
+  & > .hamburger-menu {
+    display: none;
+  }
 }
 
 .btn-outlined {
@@ -209,9 +213,35 @@ header {
   }
 }
 
+/* hero section styles */
+
+.hero-section {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-32);
+  margin: clamp(var(--spacing-40), 5vw + 1rem, var(--spacing-136)) auto;
+}
+
+.hero-section > div {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: var(--spacing-16);
+}
+
 /* Extra Small Devices (Phones) */
 @media (max-width: 479px) {
-  /* Styles for phones */
+  nav,
+  header > .btn-outlined {
+    display: none;
+  }
+
+  header > .hamburger-menu {
+    display: block;
+    background: transparent;
+    border: none;
+    font-size: var(--fs-40);
+  }
 }
 
 /* Small Devices (Tablets) */
