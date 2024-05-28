@@ -222,7 +222,7 @@ header {
   margin: clamp(var(--spacing-40), 5vw + 1rem, var(--spacing-136)) auto;
 }
 
-.hero-section > div {
+.dflex {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -242,6 +242,12 @@ header {
     border: none;
     font-size: var(--fs-40);
   }
+}
+
+h1 + p,
+h2 + p,
+h3 + p {
+  gap: 1rem;
 }
 
 /* Small Devices (Tablets) */
