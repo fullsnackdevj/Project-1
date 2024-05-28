@@ -253,14 +253,24 @@ header {
 
 /* tech overview section styles */
 
+.tech-overview {
+}
+
 .tech-overview img,
 img + h2 {
+  margin: var(--spacing-18) 0;
+}
+
+/* learning environment section styles */
+
+.learning-environment img {
   margin: var(--spacing-18) 0;
 }
 
 /* Extra Small Devices (Phones) */
 @media (max-width: 479px) {
   nav,
+  .instructor-comment,
   header > .btn-outlined {
     display: none;
   }
