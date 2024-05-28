@@ -139,6 +139,10 @@ body {
   padding: 1rem;
 }
 
+section {
+  margin: clamp(var(--spacing-32), 5vw + 1rem, var(--spacing-136)) 0;
+}
+
 header {
   display: flex;
   flex-wrap: wrap;
