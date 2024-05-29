@@ -310,12 +310,6 @@ img + h2 {
   }
 }
 
-h1 + p,
-h2 + p,
-h3 + p {
-  gap: 1rem;
-}
-
 /* Small Devices (Tablets) */
 @media (min-width: 480px) and (max-width: 767px) {
   /* Styles for landscape phones and small tablets */
