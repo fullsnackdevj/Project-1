@@ -155,7 +155,7 @@ section {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 1.5rem;
   padding: 1rem;
 }
 
@@ -272,10 +272,10 @@ header {
 .tech-overview {
 }
 
-.tech-overview img,
+/* .tech-overview img,
 img + h2 {
   margin: var(--spacing-18) 0;
-}
+} */
 
 /* learning environment section styles */
 
